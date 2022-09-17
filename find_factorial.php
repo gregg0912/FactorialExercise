@@ -12,8 +12,7 @@ function find_factorial($input)
 
 $input = $_POST["input"];
 $factorial = find_factorial($input);
-$message = "The factorial is $factorial";
 
 echo json_encode(array(
-    "message" => $message
+    "factorial" => $factorial
 ));

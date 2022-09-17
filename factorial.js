@@ -13,7 +13,7 @@ $(document).ready(function()
             success: function(data)
             {
                 let output = JSON.parse(data);
-                $(".output").html(output.message);
+                $(".output").html(output.factorial);
             }
         })
     });
